@@ -1,4 +1,11 @@
 <h1><%= testPage %></h1>
+<ul>
+  <li>test task</li>
+  <% for(let i = 0; i< taskList.length; i++) {%>
+  <li><%= taskList[i] %></li>
+  <%}%>
+</ul>
+
 
 <form action="/" method="post">
   <input type="text" name="siham" />
